@@ -1,0 +1,25 @@
+<div ng-controller="Gamecontoller">
+	<div>
+		Guesses Left :: {{ noofguess }}
+	</div>
+	<div class="incorrectGuess">
+		Your Incorret Guesses :: 
+		<span ng-repeat="letter in incorrectlettersChosen">
+			{{letter}}
+		</span>
+	</div>
+		<div>
+		Your correct Guesses :: 
+		<span ng-repeat="letter in correctlettersChosen">
+			{{letter}}
+		</span>
+	</div>
+	<div>You have to guess: {{displayword}}</div>
+	<div>
+		<div>
+			<input type="text" name="guess" ng-model="input.letter">
+			<button ng-click="letterCheck()">Submit</button>
+		</div>
+	</div>
+
+</div>

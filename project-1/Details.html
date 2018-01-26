@@ -1,0 +1,28 @@
+<table ng-controller='detailsctrl' class="dtable">
+		<th class="ttable">id</th>
+		<th class="ttable">username</th>
+		<th class="ttable">name</th>
+		<th class="ttable">company</th>
+		<th class="ttable">city</th>
+		<th class="ttable">state</th>
+		<th class="ttable">zipcode</th>
+		<th class="ttable">email</th>
+		<th class="ttable">gender</th>
+		<th class="ttable">phone</th>
+		<th class="ttable">usertype</th>
+		<th class="ttable">Action</th>
+    	<tr ng-repeat="x in perdetails">
+    		<td class="ttable">{{ $index + 1 }}</td>
+        	<td class="ttable">{{x.username}}</td>
+			<td class="ttable">{{x.name}}</td>
+			<td class="ttable">{{x.company}}</td>
+			<td class="ttable">{{x.city}}</td>
+			<td class="ttable">{{x.state}}</td>
+			<td class="ttable">{{x.zipcode}}</td>
+			<td class="ttable">{{x.email}}</td>
+			<td class="ttable">{{x.gender}}</td>
+			<td class="ttable">{{x.phone}}</td>
+			<td class="ttable">{{x.usertype}}</td>
+			<td class="ttable"><input type="button" name="button" ng-click="view(x.username)" value="VIEW">  <input type="button" name="button" ng-click="delete(x.username)" value="Delete"></td>
+    </tr>
+</table>

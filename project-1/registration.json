@@ -1,0 +1,35 @@
+{
+  "users": [
+              {
+                "username": "dncnw0kt2",
+                "password": "default",
+                "name": "steve",
+                "company": "english",
+                "street": "employee",
+                "city": "Orange",
+                "state": "CT",
+                "zipcode":"560037",
+                "email":"ankush@gmail.com",
+                "gender": "Female",
+                "phone": "1234567890",
+                "usertype":"Company",
+                "inquiry":"What is my last workig day"
+              },
+              {
+                "username": "dncnw0kt2",
+                "password": "Default",
+                "name": "Sonu",
+                "company": "english",
+                "street": "employee",
+                "city": "Orange",
+                "state": "CT",
+                "zipcode":"560038",
+                "email":"sonu@gmail.com",
+                "gender": "Male",
+                "phone": "1234567890",
+                "usertype":"Individual",
+                "inquiry":"What is my last workig day"
+              }
+
+          ]
+}
