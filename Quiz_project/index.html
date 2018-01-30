@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Millionaire Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<h1>Welcome to Millionaire Quiz</h1>
+
+<form id="quiz" name="quiz">
+
+	<p>1. Who is the Prime Minister of India?</p>
+	<input type="text" name="question1" id="textbox"><br>
+
+	<p>2. What is the capital of India?</p>
+	<input type="radio" id="mc" name="question2" value="Delhi">New Delhi<br>
+	<input type="radio" id="mc" name="question2" value="Mumbai">Mumbai<br>
+
+	<p>3. Who is the president of India?</p>
+	<input type="radio" id="mc" name="question3" value="Ram">Ram Nath Kovind<br>
+	<input type="radio" id="mc" name="question3" value="Pranab">Pranab Mukherjee<br>
+
+	<input type="button" id="button" value="Submit the answers" onclick="answer();">
+</form>
+<div id="after_submit">
+	<p id="message"></p>
+	<p id="number_correct"></p>
+	<img id="picture">
+</div>
+
+</body>
+</html>
